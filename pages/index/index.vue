@@ -81,10 +81,9 @@
 				})
 			},
 			fabClick() {
-				uni.showToast({
-					title: '点击了悬浮按钮',
-					icon: 'none'
-				})
+				uni.navigateTo({
+					url: 'publish_help/publish_help'
+				});
 			},
 		}
 	}

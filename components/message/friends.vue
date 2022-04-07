@@ -22,6 +22,7 @@
 			</view>
 			<u-line></u-line>
 		</view>
+		
 		<template v-for="(item, index) in itemArr">
 			<!-- #ifdef APP-NVUE -->
 			<u-index-anchor :text="indexList[index]" :key="index"></u-index-anchor>
@@ -80,10 +81,11 @@
 			}
 		},
 		computed: {
+			
 			itemArr() {
 				return this.indexList.map(item => {
 					const arr = []
-					for (let i = 0; i < 10; i++) {
+					for (let i = 0; i < 2; i++) {
 						arr.push({
 							name: this.names[uni.$u.random(0, this.names.length - 1)],
 							url: this.urls[uni.$u.random(0, this.urls.length - 1)]

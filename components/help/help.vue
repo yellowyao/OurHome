@@ -12,7 +12,7 @@
 
 			</view>
 
-
+		<u-gap height="10"></u-gap>
 			<text class="help_title"> 求帮忙！！！！！！！</text>
 
 			<text class="help_constant u-line-2">有没有人有青菜！家里没菜了！！！家里没菜了！！！家里没菜了！！！家里没菜了！！！想吃肉</text>
